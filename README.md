@@ -1,12 +1,12 @@
-Öğrenci OTakip sistemi Uygulaması:
+Öğrenci Takip Sistemi Uygulaması:
 
-Bu proje, basit bir öğrenci otomasyonu uygulamasını içerir. Kullanıcılar, öğrencileri ekleyebilir, düzenleyebilir, silebilir ve eklenen öğrencilerin sınav performansına göre durumlarını görebilirler.
+Bu proje, basit bir öğrenci otomasyonu uygulamasını içerir. Kullanıcılar; öğrencileri ekleyebilir, düzenleyebilir, silebilir ve eklenen öğrencilerin sınav performansına göre durumlarını görebilirler.
 
-Nasıl Kullanılır
+Nasıl Kullanılır?
 
     Yeni Öğrenci Ekleme
         Ana ekranda "Yeni Öğrenci" butonuna tıklayarak yeni bir öğrenci eklenir.
-        Açılan formda öğrenci adı, soyadı ve sınav notu girilir.
+        Açılan formda; öğrenci adı, soyadı ve sınav notu girilir.
         "Kaydet" butonuna basılarak formdan çıkılır ve eklenen öğrenci ana ekrana eklenir.
 
     Öğrenci Düzenleme
@@ -15,20 +15,19 @@ Nasıl Kullanılır
         "Düzenle" seçeneğine tıklandığında öğrencinin adı, soyadı ve sınav notu düzenlenebilir.
 
     Sınav Durumu Kontrolü
-        Her öğrenci, aldığı not baz alınarak durumu belirtilir.
-        Aldığı nota göre "Dersten Kaldı", "Dersten Geçti" veya "Bute Kaldı" gibi bir durum belirtilir.
+        Her öğrencinin, aldığı not baz alınarak durumu belirtilir.
+        Aldığı nota göre "Dersten Kaldı", "Dersten Geçti" veya "Bütünlemeye Kaldı" gibi bir durum belirtilir.
 
     Öğrenci Silme
         Silinmek istenen öğrenciye ait "Sil" butonuna tıklanır.
-        Öğrenci başarıyla silinir.
+        Öğrenci silinir.
 
 Proje Yapısı:
     main.dart: Ana uygulama arayüzü, Uygulamanın data Stuctures işlemlerinin yapıldığı dosyadır.
     Student.dart: Uygulamanın temel işlevlerini içeren Dart dosyası.
     Student_add.dart: Uygulamada yeni öğrencileri ekleyen dart dosyası.
-    Student_edit.dart: Uygulamada eklenen ogrencılerı duzenlemek için kullanılan class.
-    Student_validator.dart : Bu class içersinde ogrenciler eklenirken ogrencılerin dogrulanmasını yapar. ve olası hata durumlarında diğer classlar içinde çağrılarak formda hata bildirimini sunar.
-    
+    Student_edit.dart: Uygulamada eklenen öğrencilerı düzenlemek için kullanılan class.
+    Student_validator.dart : Bu class içersinde öğrenciler eklenirken öğrencilerin doğrulanmasını yapar ve olası hata durumlarında diğer classlar içinde çağrılarak formda hata bildirimini sunar.
 
 
 Geliştirici:Merve Arslan
@@ -41,15 +40,14 @@ Eğer projeye katkıda bulunmak isterseniz:
 
 Lisans:
 
-Bu proje lisansı altında dağıtılmaktadır. 
+Bu proje BSD lisansı altında dağıtılmaktadır. 
 
 ---------
 
-En 
+English
 
 
-
-Student OTakip system Application:
+Student tracking System Application:
 
 This project includes a simple student automation application. Users can add, edit, delete students and view the status of added students according to their exam performance.
 
