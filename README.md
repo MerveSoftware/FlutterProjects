@@ -41,7 +41,7 @@ Eğer projeye katkıda bulunmak isterseniz:
 
 Lisans:
 
-Bu proje lisansı altında dağıtılmaktadır. 
+Bu proje GNU lisansı altında dağıtılmaktadır. 
 
 ---------
 
