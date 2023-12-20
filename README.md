@@ -1,4 +1,4 @@
-Öğrenci OTakip sistemi Uygulaması:
+Öğrenci Takip sistemi Uygulaması:
 
 Bu proje, basit bir öğrenci otomasyonu uygulamasını içerir. Kullanıcılar, öğrencileri ekleyebilir, düzenleyebilir, silebilir ve eklenen öğrencilerin sınav performansına göre durumlarını görebilirler.
 
@@ -49,7 +49,7 @@ En
 
 
 
-Student OTakip system Application:
+Student tracking system Application:
 
 This project includes a simple student automation application. Users can add, edit, delete students and view the status of added students according to their exam performance.
 
@@ -92,4 +92,4 @@ If you would like to contribute to the project:
 
 Licence:
 
-This project is distributed under license.
+This project is distributed under the GNU license 
